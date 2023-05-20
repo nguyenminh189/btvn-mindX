@@ -1,0 +1,113 @@
+
+
+:root {
+    --light-blue: #e4f9f5;
+    --ocean: #11999e;
+    --light-ocean: #66bfbf;
+    --white: white;
+    --bright-ocean: #11cdd4;
+
+}
+
+body {
+    text-align: center;
+   font-family: ;
+   margin: 0px;
+   padding: 0px;
+}
+
+.top-container {
+    background-color: var(--light-blue);
+    position: relative;
+    padding-top: 100px;
+    display: flex  ;
+flex-direction: column;
+height: 60%;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+position: absolute;
+right: 300px;
+
+}
+
+.bottom-cloud {
+   position: absolute;
+   justify-content: flex-end;
+  left: 400px;
+}
+
+.mountain {
+    width: 400px;
+    height:250px;
+    position: absolute;
+    justify-content: center;
+    
+    
+}
+
+.middle-container {
+    
+    margin: 100px;
+}
+
+.text{
+    width: 30%;
+    margin: auto;
+    
+}
+
+.profile_img{
+    border-radius: 50%;
+}
+
+h1 {
+    color: #66bfbf;
+    font-family:"Satisfy", cursive;
+    font-size: 80px;
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    color: var(--ocean);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skill-row {
+    width: 50%;
+  margin: 100px 100px ;
+    text-align: left;
+}
+
+.mail {
+    background: var(--bright-ocean);
+    font-family: "Montserrat", sans-serif;
+    color: var(--white);
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.bottom-container {
+    background-color: var(--light-ocean);
+    padding: 50px 0 20px;
+    justify-content: space-around   ;
+    text-align: center;
+}
+
+>contact-me {
+    font-family: "Montserrat", sans-serif;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px 20px;
+}

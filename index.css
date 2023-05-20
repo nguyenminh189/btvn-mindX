@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  /* position: absolute;
+  left: 250px;
+  bottom: 300px; */
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile > img {
+  border-radius: 50%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-img {
+  width: 25%;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+a {
+  color: #11999e;
+  margin: 10px 20px;
+}
+
+.skill-1 {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-2 {
+  float: right;
+  margin-left: 30px;
+}
